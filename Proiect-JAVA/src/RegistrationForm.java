@@ -71,6 +71,9 @@ public class RegistrationForm extends JDialog {
                     "Try again",
                     JOptionPane.ERROR_MESSAGE);
         }
+        LoginForm loginForm = new LoginForm(null);
+        User user = loginForm.user;
+
     }
 
     private User addUserToDatabase(String name, String email, String phone, String address, String password) {

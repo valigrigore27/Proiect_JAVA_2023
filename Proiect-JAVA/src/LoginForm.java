@@ -58,6 +58,7 @@ public class LoginForm extends JDialog {
             System.out.println("Email: " + user.email);
             System.out.println("Phone: " + user.phone);
             System.out.println("Address: " + user.address);
+            //DashboardForm dashboardForm = new DashboardForm();
         } else {
             System.out.println("Authentication canceled..");
         }
@@ -97,7 +98,7 @@ public class LoginForm extends JDialog {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return user;
     }
+
 }

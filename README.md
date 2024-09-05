@@ -16,7 +16,6 @@ Acest proiect Java este o aplicație desktop pentru gestionarea utilizatorilor �
    - Informațiile sunt stocate într-un tabel `users` din baza de date.
 
 3. **DashboardForm (Administrarea angajaților)**:
-   - Fereastra principală a aplicației după autentificare.
    - Afișează o listă de angajați din tabelul `employee` în baza de date.
    - Permite adăugarea, căutarea și ștergerea informațiilor despre angajați, precum numele, salariul și numărul de telefon.
    - Datele sunt afișate într-un tabel (JTable), iar acțiunile sunt legate de interogări SQL pentru manipularea datelor în baza de date.

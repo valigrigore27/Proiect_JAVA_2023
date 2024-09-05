@@ -2,8 +2,6 @@
 
 ### [Video Link](https://drive.google.com/file/d/1yZVe1SQY9r1KBVslqY74fUx5qQyliGHq/view?usp=drive_link)
 
-Desigur! Iată un scurt rezumat al proiectului:
-
 ### **Scopul Proiectului**
 Acest proiect Java este o aplicație desktop pentru gestionarea utilizatorilor și angajaților într-o bază de date MySQL. Aplicația permite înregistrarea, autentificarea și manipularea datelor angajaților, cum ar fi adăugarea, căutarea, actualizarea și ștergerea acestora.
 

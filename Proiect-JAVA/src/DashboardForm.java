@@ -1,5 +1,4 @@
 import net.proteanit.sql.DbUtils;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,6 +16,7 @@ public class DashboardForm {
     private JTable table1;
     private JButton deleteButton;
     private JButton searchButton;
+    private JButton updateButton;
     private JTextField txtId;
     private JScrollPane table_1;
 
@@ -131,7 +131,7 @@ public class DashboardForm {
     public void connect() {
         final String DB_URL = "jdbc:mysql://localhost/company";
         final String USERNAME = "root";
-        final String PASSWORD = "";
+        final String PASSWORD = "root";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
